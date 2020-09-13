@@ -28,7 +28,7 @@ app.use(cors())
 }) */
 
 //DB config
-const connection_url='mongodb+srv://admin:Zr5OvBp0uYCQOs63@cluster0.6y77q.mongodb.net/whatsaapdb?retryWrites=true&w=majority'
+const connection_url='Enter URL'
 mongoose.connect(connection_url,{
     useCreateIndex:true,
     useNewUrlParser:true,
